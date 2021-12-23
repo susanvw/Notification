@@ -6,7 +6,7 @@
     <Authors>Susan von Wielligh</Authors>
     <Company>SvwDesign.com</Company>
     <Nullable>enable</Nullable>
-    <Version>5.1.0.1</Version>
+    <Version>5.1.1</Version>
     <Description>Notification Nuget package that implements sendgrid and MailKit.</Description>
     <PackageIcon>profile_picture_icon_v1.png</PackageIcon>
     <PackageIconUrl />
@@ -17,7 +17,7 @@
     <PackageReference Include="Microsoft.Extensions.Options" Version="5.0.0" />
     <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="5.0.0" />
     <PackageReference Include="NETCore.MailKit" Version="2.0.3" />
-    <PackageReference Include="SendGrid" Version="9.25.0" />
+    <PackageReference Include="SendGrid" Version="9.25.1" />
     <PackageReference Include="Twilio.AspNet.Core" Version="5.68.3" />
   </ItemGroup>
 
