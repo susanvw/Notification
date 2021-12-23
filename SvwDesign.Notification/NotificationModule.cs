@@ -12,7 +12,6 @@ namespace SvwDesign.Notification
             services.Configure<EmailSenderOptions>(configuration.GetSection(nameof(EmailSenderOptions)));
             services.Configure<TwilioOptions>(configuration.GetSection(nameof(TwilioOptions)));
 
-            // add services
             services.AddTransient<IEmailSender, MailKitEmailSender>();
             services.AddTransient<IEmailSender, SendGridEmailSender>();
             services.AddTransient<ISMSSender, SMSSender>();
