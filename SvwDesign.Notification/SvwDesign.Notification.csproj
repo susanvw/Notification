@@ -6,7 +6,7 @@
     <Authors>Susan von Wielligh</Authors>
     <Company>SvwDesign.com</Company>
     <Nullable>enable</Nullable>
-    <Version>5.1.1</Version>
+    <Version>5.1.2</Version>
     <Description>Notification Nuget package that implements sendgrid and MailKit.</Description>
     <PackageIcon>profile_picture_icon_v1.png</PackageIcon>
     <PackageIconUrl />
@@ -14,6 +14,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="5.0.0" />
     <PackageReference Include="Microsoft.Extensions.Options" Version="5.0.0" />
     <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="5.0.0" />
     <PackageReference Include="NETCore.MailKit" Version="2.0.3" />

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace SvwDesign.Notification
 {
+
     public class SendGridEmailSender : IEmailSender
     {
         private readonly EmailSenderOptions Options;
@@ -29,7 +30,7 @@ namespace SvwDesign.Notification
         {
             try
             {
-                var client = new SendGridClient(Options.ApiKey);
+                var client = new SendGridClient(Options.SendGridApiKey);
                 var msg = new SendGridMessage()
                 {
                     From = new EmailAddress(Options.SenderEmail, Options.SenderName),
