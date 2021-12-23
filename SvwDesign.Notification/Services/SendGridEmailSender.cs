@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace SvwDesign.Notification
 {
-
     public class SendGridEmailSender : IEmailSender
     {
         private readonly EmailSenderOptions Options;
