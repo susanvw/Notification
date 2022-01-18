@@ -1,6 +1,6 @@
 ﻿using System.Net;
 
-namespace SvwDesign.Notification
+namespace SvwDesign.Notification.Events
 {
     public class NotificationSentEvent 
     { 

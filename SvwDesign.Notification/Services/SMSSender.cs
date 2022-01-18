@@ -1,9 +1,12 @@
 ﻿using Microsoft.Extensions.Options;
+using SvwDesign.Notification.Events;
+using SvwDesign.Notification.Interfaces;
+using SvwDesign.Notification.Options;
 using System.Threading.Tasks;
 using Twilio;
 using Twilio.Rest.Api.V2010.Account;
 
-namespace SvwDesign.Notification
+namespace SvwDesign.Notification.Services
 {
     public class SMSSender : ISMSSender
     {

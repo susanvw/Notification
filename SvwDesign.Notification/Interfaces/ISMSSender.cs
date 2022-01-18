@@ -1,6 +1,7 @@
-﻿using System.Threading.Tasks;
+﻿using SvwDesign.Notification.Events;
+using System.Threading.Tasks;
 
-namespace SvwDesign.Notification
+namespace SvwDesign.Notification.Interfaces
 {
     public interface ISMSSender
     {
